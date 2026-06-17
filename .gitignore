@@ -1,0 +1,28 @@
+# Sensitive data — never commit
+data/
+certs/
+**/.vault_salt
+**/.vault_verify
+**/*.db
+**/*.db-wal
+**/*.db-shm
+*.envbackup
+
+# Python
+.venv/
+venv/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+
+# Frontend build / deps
+frontend/dist/
+frontend/node_modules/
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
